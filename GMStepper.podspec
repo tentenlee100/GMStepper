@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'GMStepper/*.swift'
-  s.swift_version = '4.2'
+  s.swift_version = ['5.1', '5.2', '5.3']
 end
